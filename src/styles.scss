@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --lien :#D3AF75;
+  --background : #b9c1aa;
+  --titre : #A24929;
+  --texte : #25383E;
+  --blanc: #fefcf4;
+}
+
+app-root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Structure générale pour la page */
+header {
+  background-color: var(--background); /* Vert sauge doux pour le fond */
+  width: 12%; /* Header vertical à gauche prenant 20% de la largeur */
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  position: fixed; /* Fixe le header à gauche */
+}
+
+main {
+  background-color: var(--blanc); /* Blanc pour le fond du contenu principal */
+  margin-left: 12%; /* Pour éviter que le main passe sous le header */
+  padding: 1rem;
+  width: 88%; /* Main prend 80% de la largeur */
+  min-height: calc(100vh - 50px); /* Ajuste en fonction de la hauteur du footer */
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: var(--titre); 
+  color: var(--blanc);
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--titre);
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .1rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--texte);
+  font-size: 1.125rem ;
+  font-weight: 400;
+}
+
+button {
+    padding: 0.7rem 1.4rem;
+    margin: 1rem 0;
+    background-color: var(--background);
+    color : var(--blanc);
+    border : none;
+    border-radius: 0.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    &:hover {
+        background-color: var(--titre);
+        border: none;
+        
+    }
+    a {
+      color: var(--blanc);
+      text-decoration: none;;
+     }
+}

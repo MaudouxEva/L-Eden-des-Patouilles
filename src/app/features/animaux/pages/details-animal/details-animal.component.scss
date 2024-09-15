@@ -1,0 +1,27 @@
+.details-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .image-section {
+    flex: 1;
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  }
+  
+  .info-section {
+    flex: 2;
+    h1 {
+      font-size: 2.5rem;
+      color: #A24929; /* Couleur principale pour le titre */
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #25383E; /* Couleur pour les informations */
+    }
+  }
+  
