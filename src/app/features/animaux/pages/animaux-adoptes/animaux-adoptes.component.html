@@ -1,13 +1,20 @@
-<div class="animaux-container">
+<section class="banner">
+  <div class="banner-content">
+    <h2>ils ont trouvé une famille !</h2>
+    <p>Adoptez un compagnon pour la vie et faites une différence aujourd'hui.</p>
+  </div>
+</section>
+
+
+<section>
+  <div class="animaux-container">
     @if (animaux.length > 0) {
       @for (animal of animaux; track animal.id) {
         <div class="animal-card">
           <img [src]="animal.imageUrl" [alt]="animal.nom" />
           <div class="animal-info">
             <h3>{{ animal.nom }}</h3>
-            <p><strong>Espèce:</strong> {{ animal.espece }}</p>
-            <p><strong>Race:</strong> {{ animal.race }}</p>
-            <p><strong>Âge:</strong> {{ animal.age }} ans</p>
+            <p>{{ animal.description }}</p>
           </div>
         </div>
       }
@@ -15,4 +22,5 @@
       <p>Aucun animal n'a trouvé de famille pour le moment.</p>
     }
 </div>
-  
+
+</section>

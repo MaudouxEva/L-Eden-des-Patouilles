@@ -7,6 +7,9 @@ import { HomeComponent } from './features/home/pages/home/home.component';
 import { provideHttpClient } from '@angular/common/http';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { AboutComponent } from './features/about/pages/about/about.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactComponent } from './features/contact/pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,10 +17,18 @@ import { HeaderComponent } from './layout/header/header.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    AboutComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+  ],
+  exports: [
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent]

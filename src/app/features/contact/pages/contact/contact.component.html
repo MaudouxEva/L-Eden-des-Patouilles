@@ -1,0 +1,30 @@
+<section class="banner">
+  <div class="banner-content">
+    <h2>Nous contacter</h2>
+    <p>Venez rencontrer nos amis à 4 pattes</p>
+  </div>
+</section>
+
+
+
+<form [formGroup]="contactFormulaire" (ngSubmit)="submit()">
+  <div>
+    <input type="text" placeholder="Nom" formControlName="lastname" />
+  </div>
+  <div>
+    <input type="text" placeholder="Prénom" formControlName="firstname" />
+  </div>
+  <div>
+    <input type="email" placeholder="Email" formControlName="email" />
+  </div>
+
+  <div>
+    <input type="tel" placeholder="Numéro de téléphone" formControlName="phone" />
+  </div>
+  <div>
+    <input type="date" formControlName="dateRDV"/>
+  </div>
+  <div>
+    <button type="submit">Envoyer</button>
+  </div>
+</form>

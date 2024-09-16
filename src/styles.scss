@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 :root {
@@ -10,7 +9,7 @@
   --background : #b9c1aa;
   --titre : #A24929;
   --texte : #25383E;
-  --blanc: #fefcf4;
+  --blanc: #f5eade;
 }
 
 app-root {
@@ -98,4 +97,37 @@ button {
       color: var(--blanc);
       text-decoration: none;;
      }
+}
+
+.banner {
+  width: 100%;
+  height: 11rem;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("/assets/images/background-pattes.png");
+  background-size: 40%; /* Ajuste ici pour réduire la taille des pattes */
+  background-repeat: repeat; /* Pour éviter de répéter l’image */
+  background-position: center; /* Centrer l’image */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  .banner-content {
+    text-align: center;
+    color: var(--texte); /* Bleu gris profond */
+
+        p {
+            font-family: "Quicksand", sans-serif;
+            font-size: 1.3rem;
+            color: var(--texte); /* Texte plus sombre pour rester lisible */
+        }
+
+        h2 {
+            letter-spacing: 0.1rem;
+            color: var(--lien); /* Or doux pour un effet élégant */
+            margin-bottom: 1rem;
+        }
+    }
 }

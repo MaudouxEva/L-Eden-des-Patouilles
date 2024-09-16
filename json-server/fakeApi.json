@@ -74,15 +74,15 @@
       },
       {
         "id": 7,
-        "nom": "Django",
+        "nom": "Bob",
         "espece": "Chien",
         "race": "Doberman",
         "sexe": "Male",
         "age": 3,
-        "description": "Django est arrivé au refuge après que sa famille ne pouvait plus lui fournir suffisamment d’espace et de temps pour se dépenser. C’est un chien intelligent et énergique qui a besoin d’une famille active. Django est castré.",
+        "description": "Bob est arrivé au refuge après que sa famille ne pouvait plus lui fournir suffisamment d’espace et de temps pour se dépenser. C’est un chien intelligent et énergique qui a besoin d’une famille active. Bob est castré.",
         "adopte": false,
         "castre": true,
-        "imageUrl": "assets/images/Django.jpg"
+        "imageUrl": "assets/images/Bob.jpg"
       },
       {
         "id": 8,
@@ -140,7 +140,7 @@
         "sexe": "Male",
         "age": 1,
         "description": "Pistache a été trouvé errant dans un jardin. Il est très curieux et adore explorer son environnement. Pistache est castré.",
-        "adopte": true,
+        "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Pistache.jpg"
       },
@@ -299,6 +299,114 @@
         "adopte": false,
         "castre": false,
         "imageUrl": "assets/images/Choupi.jpg"
+      },
+      {
+        "id": 26,
+        "nom": "Gaston",
+        "espece": "Chien",
+        "race": "Jack Russel",
+        "sexe": "Male",
+        "age": 2,
+        "description": "Gaston vit maintenant à la campagne, choyé et aimé. Son maitre est aux petits soins pour lui. Adepte du dodo, il utilise souvent ses jambes comme un lit.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Gaston.png"
+      },
+      {
+        "id": 27,
+        "nom": "Arnold",
+        "espece": "Chien",
+        "race": "Jack Russel",
+        "sexe": "Male",
+        "age": 2,
+        "description": "Arnold vit maintenant dans une super famille, et passe son temps à manger des souris. Il rend régulièrement visite à son frère Gaston, reccueilli au sein de cette même famille.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Arnold.jpg"
+      },
+      {
+        "id": 28,
+        "nom": "Jean-Claude",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Male",
+        "age": 2,
+        "description": "Jean-Claude a été recueilli par une famille chaleureuse, qui vit en campagne. Il habite avec son compagnon de refuge, Gaston, avec qui il fait les 400 coups. Il aime se faufiler dans le lit de son maitre quand il a le dos tourné.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Jean-Claude.jpg"
+      },
+      {
+        "id": 29,
+        "nom": "Virgule",
+        "espece": "Chien",
+        "race": "Dalmatien",
+        "sexe": "Male",
+        "age": 8,
+        "description": "Virgule AK Fufu a été recueilli par une famille chaleureuse et aimante. Il est choyé aux petits oingons. Il s'épanouit pleinement auprès de ses maitres.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Virgule.jpg"
+      },
+      {
+        "id": 30,
+        "nom": "Django",
+        "espece": "Chien",
+        "race": "Bouvier Bernois",
+        "sexe": "Male",
+        "age": 1,
+        "description": "Django vient tout juste de trouver sa famille de rêve. Pas trop farouche, il s'adapte vite à son environnement. En vrai bébé gangsta, il ne se laisse pas intimider pas ses deux nouveaux camarades, quelque peu antipathiques de prime abord. ",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Django.jpg"
+      },
+      {
+        "id": 31,
+        "nom": "Balou",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Male",
+        "age": 4,
+        "description": "Balou habite maintenant dans un environnement chaleureux, avec deux nouveaux maitres qui prennent soin de lui. Il a été adopté avec son grand frère, Simba. Un peu agressif sur les bords, il n'hésite pas à casser des gueules.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Balou.jpeg"
+      },
+      {
+        "id": 32,
+        "nom": "Simba",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Male",
+        "age": 4,
+        "description": "Simba vit actuellement sa meilleure vie de petit lion au sein d'une famille aimante. Simba est un peu peureux, mais son frère Balou veille sur lui, pour le protéger de son vilain maitre GG.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Simba.jpg"
+      }, 
+      {
+        "id": 35,
+        "nom": "Manatee",
+        "espece": "Chien",
+        "race": "Berger Australian",
+        "sexe": "Femelle",
+        "age": 6,
+        "description": "Manatee AK La Queen vit sa nouvelle vie de princesse entourée de beaucoup d'amour. Légèrement capricieuse sur les bords, elle préfère le confort de l'intérieur à l'extérieur. ",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Gaston.jpg"
+      },
+      {
+        "id": 3,
+        "nom": "Steven",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Femelle",
+        "age": 6,
+        "description": "Gros pacha",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Gaston.jpg"
       }
     ]
   }

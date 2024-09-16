@@ -1,4 +1,13 @@
-<div class="animaux-container">
+<section class="banner">
+    <div class="banner-content">
+      <h2>Nos adorables animaux vous attendent !</h2>
+      <p>Adoptez un compagnon pour la férence aujourd'hui.</p>
+    </div>
+</section>
+  
+
+<section>
+   <div class="animaux-container">
     <!-- Vérification que la liste des animaux existe et n'est pas vide -->
     @if (animaux.length > 0) {
         @for (animal of animaux; track animal.id) {
@@ -6,10 +15,8 @@
                 <img [src]="animal.imageUrl" [alt]="animal.nom" />
                 <div class="animal-info">
                     <h3>{{ animal.nom }}</h3>
-                    <p><strong>Espèce:</strong> {{ animal.espece }}</p>
-                    <p><strong>Race:</strong> {{ animal.race }}</p>
-                    <p><strong>Sexe :</strong> {{ animal.sexe}}</p>
-                    <p><strong>Âge:</strong> {{ animal.age }} ans</p>
+                    <p>Race : {{ animal.race }}</p>
+                    <p>{{ animal.sexe}}  de {{ animal.age }} ans</p>
                     <button><a [routerLink]="'/adoption/' + animal.id">Plus d'infos</a></button> <!-- route pour le détail de l'animal -->
                 </div>
             </div>
@@ -18,4 +25,6 @@
     } @else {
       <p>Aucun animal ne vit dans notre refuge actuellement.</p>
     }
-</div>
+</div> 
+</section>
+
