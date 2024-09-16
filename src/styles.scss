@@ -95,7 +95,7 @@ button {
     }
     a {
       color: var(--blanc);
-      text-decoration: none;;
+      text-decoration: none;
      }
 }
 
@@ -116,17 +116,17 @@ button {
 
   .banner-content {
     text-align: center;
-    color: var(--texte); /* Bleu gris profond */
+    color: var(--texte); 
 
         p {
             font-family: "Quicksand", sans-serif;
             font-size: 1.3rem;
-            color: var(--texte); /* Texte plus sombre pour rester lisible */
+            color: var(--texte); 
         }
 
         h2 {
             letter-spacing: 0.1rem;
-            color: var(--lien); /* Or doux pour un effet élégant */
+            color: var(--lien);
             margin-bottom: 1rem;
         }
     }

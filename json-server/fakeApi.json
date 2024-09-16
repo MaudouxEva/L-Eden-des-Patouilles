@@ -2,15 +2,15 @@
     "animaux": [
       {
         "id": 1,
-        "nom": "Simba",
+        "nom": "Scar",
         "espece": "Chien",
         "race": "Berger Allemand",
         "sexe": "Femelle",
         "age": 4,
-        "description": "Simba est arrivée avec Scott au refuge car leur ancien propriétaire avait des problèmes de santé et ne pouvait plus s’en occuper. Simba est très anxieuse et protectrice. Elle a besoin d'une famille expérimentée avec la race, sans enfant ni chat. Très câline avec sa famille, elle adore l'eau. Elle est propre en maison et écoute bien. Simba est stérilisée.",
+        "description": "Scar est arrivée avec Scott au refuge car leur ancien propriétaire avait des problèmes de santé et ne pouvait plus s’en occuper. Simba est très anxieuse et protectrice. Elle a besoin d'une famille expérimentée avec la race, sans enfant ni chat. Très câline avec sa famille, elle adore l'eau. Elle est propre en maison et écoute bien. ",
         "adopte": false,
         "castre": true,
-        "imageUrl": "assets/images/Simba.jpg"
+        "imageUrl": "assets/images/Scar.jpg"
       },
       {
         "id": 2,
@@ -306,11 +306,11 @@
         "espece": "Chien",
         "race": "Jack Russel",
         "sexe": "Male",
-        "age": 2,
-        "description": "Gaston vit maintenant à la campagne, choyé et aimé. Son maitre est aux petits soins pour lui. Adepte du dodo, il utilise souvent ses jambes comme un lit.",
+        "age": 3,
+        "description": "Gaston a trouvé sa famille d'amour et vit maintenant à la campagne. Petite boule d'énergie, et chasseur de mouches à ses heures perdues, il aime son maitre par dessus.",
         "adopte": true,
         "castre": true,
-        "imageUrl": "assets/images/Gaston.png"
+        "imageUrl": "assets/images/Gaston.jpg"
       },
       {
         "id": 27,
@@ -318,8 +318,8 @@
         "espece": "Chien",
         "race": "Jack Russel",
         "sexe": "Male",
-        "age": 2,
-        "description": "Arnold vit maintenant dans une super famille, et passe son temps à manger des souris. Il rend régulièrement visite à son frère Gaston, reccueilli au sein de cette même famille.",
+        "age": 4,
+        "description": "Arnold vit maintenant dans une super famille, et passe son temps à manger des souris. Petit chien plein de douceur, il aime pronzer au soleil.",
         "adopte": true,
         "castre": true,
         "imageUrl": "assets/images/Arnold.jpg"
@@ -330,8 +330,8 @@
         "espece": "Chat",
         "race": "Chat Européen",
         "sexe": "Male",
-        "age": 2,
-        "description": "Jean-Claude a été recueilli par une famille chaleureuse, qui vit en campagne. Il habite avec son compagnon de refuge, Gaston, avec qui il fait les 400 coups. Il aime se faufiler dans le lit de son maitre quand il a le dos tourné.",
+        "age": 3,
+        "description": "Jean-Claude AKA JC a été recueilli par une famille chaleureuse. Il aime se faufiler dans le lit de son maitre, ou bien vomir des souris.",
         "adopte": true,
         "castre": true,
         "imageUrl": "assets/images/Jean-Claude.jpg"
@@ -343,7 +343,7 @@
         "race": "Dalmatien",
         "sexe": "Male",
         "age": 8,
-        "description": "Virgule AK Fufu a été recueilli par une famille chaleureuse et aimante. Il est choyé aux petits oingons. Il s'épanouit pleinement auprès de ses maitres.",
+        "description": "Virgule AKA Fufu AKA Fufufufu a trouvé sa famille pour la vie. Tendrement choyé, Fufu a même eu droit à des cours de chien, enseignés par son jeune maitre. ",
         "adopte": true,
         "castre": true,
         "imageUrl": "assets/images/Virgule.jpg"
@@ -382,7 +382,7 @@
         "description": "Simba vit actuellement sa meilleure vie de petit lion au sein d'une famille aimante. Simba est un peu peureux, mais son frère Balou veille sur lui, pour le protéger de son vilain maitre GG.",
         "adopte": true,
         "castre": true,
-        "imageUrl": "assets/images/Simba.jpg"
+        "imageUrl": "assets/images/Simba.jpeg"
       }, 
       {
         "id": 35,
@@ -394,19 +394,19 @@
         "description": "Manatee AK La Queen vit sa nouvelle vie de princesse entourée de beaucoup d'amour. Légèrement capricieuse sur les bords, elle préfère le confort de l'intérieur à l'extérieur. ",
         "adopte": true,
         "castre": true,
-        "imageUrl": "assets/images/Gaston.jpg"
+        "imageUrl": "assets/images/Manatee.png"
       },
       {
-        "id": 3,
-        "nom": "Steven",
+        "id": 36,
+        "nom": "Pompon",
         "espece": "Chat",
         "race": "Chat Européen",
-        "sexe": "Femelle",
-        "age": 6,
-        "description": "Gros pacha",
+        "sexe": "Male",
+        "age": 12,
+        "description": "Pompon a trouvé sa famille pour la vie. Gros poupou très attachant et attaché à ses petits humains, il sait rendre l'amour qu'on lui donne. De plus, il a un certain talent de mannequin...",
         "adopte": true,
         "castre": true,
-        "imageUrl": "assets/images/Gaston.jpg"
+        "imageUrl": "assets/images/Pompon.jpg"
       }
     ]
   }

@@ -1,11 +1,77 @@
 :root {
-    --lien :#D3AF75;
-    --background : #b9c1aa;
-    --titre : #A24929;
-    --texte : #25383E;
-    --blanc: #fefcf4;
+  --lien: #d3af75;
+  --background: #b9c1aa;
+  --titre: #a24929;
+  --texte: #25383e;
+  --blanc: #fefcf4;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7rem;
+  margin: 3rem;
+
+  h3 {
+    color: var(--titre);
+    padding-bottom: 1.5rem;
+    text-align: center;
   }
 
-form {
-    margin: 2rem auto;
+  .info-container {
+    margin: 2rem 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+
+    div:first-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    div:last-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  }
+  .contact-container {
+    margin: 2rem 0;
+  }
+  .form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      input {
+        padding: 1rem;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid --texte;
+        color: var(--texte);
+
+        &::placeholder {
+          font-family: "Quicksand", sans-serif;
+          color: var(--texte);
+          font-size: 1.125rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
 }
