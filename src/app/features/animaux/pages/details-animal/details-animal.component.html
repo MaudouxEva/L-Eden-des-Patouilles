@@ -1,13 +1,22 @@
 <div class="details-container">
-  <div class="image-section">
-    <img [src]="animal?.imageUrl" alt="{{ animal?.nom }}">
-  </div>
-  <div class="info-section">
-    <h1>{{ animal?.nom }}</h1>
-    <p><strong>Espèce :</strong> {{ animal?.espece }}</p>
-    <p><strong>Race :</strong> {{ animal?.race }}</p>
-    <p><strong>Âge :</strong> {{ animal?.age }} ans</p>
-    <p><strong>Description :</strong> {{ animal?.description }}</p>
-    <p><strong>Castré/Stérilisé :</strong> {{ animal?.castre ? 'Oui' : 'Non' }}</p>
-  </div>
+  @if(animal) {
+    <div class="image-section">
+      <img [src]="animal.imageUrl" alt="{{ animal.nom }}">
+    </div>
+    <div class="info-section">
+      <h3>{{ animal.nom }}</h3>
+      <p><strong>Espèce :</strong> {{ animal.espece }}</p>
+      <p><strong>Race :</strong> {{ animal.race }}</p>
+      <p><strong>Âge :</strong> {{ animal.age }} ans</p>
+      <p><strong>Castré/Stérilisé :</strong> {{ animal.castre ? 'Oui' : 'Non' }}</p>
+      <p class="description">{{ animal.description }}</p>
+    </div>
+  }
+</div>
+
+<!-- Bouton en dehors de la section info -->
+<div class="bouton-container">
+  <button class="retour-btn">
+    <a routerLink="/adoption/nos-animaux">Retour aux animaux</a>
+  </button>
 </div>

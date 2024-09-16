@@ -140,7 +140,7 @@
         "sexe": "Male",
         "age": 1,
         "description": "Pistache a été trouvé errant dans un jardin. Il est très curieux et adore explorer son environnement. Pistache est castré.",
-        "adopte": false,
+        "adopte": true,
         "castre": true,
         "imageUrl": "assets/images/Pistache.jpg"
       },

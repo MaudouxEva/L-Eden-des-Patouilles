@@ -6,8 +6,8 @@ import { AnimauxAdoptesComponent } from './pages/animaux-adoptes/animaux-adoptes
 
 const routes: Routes = [
   { path : 'nos-animaux', component : ListeAnimauxComponent},
-  { path : 'animaux/:id', component : DetailsAnimalComponent},
   { path : 'animaux-adoptes', component : AnimauxAdoptesComponent},
+  { path : ':id', component : DetailsAnimalComponent},
 ];
 
 @NgModule({

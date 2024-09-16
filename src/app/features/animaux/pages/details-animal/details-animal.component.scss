@@ -1,27 +1,63 @@
+:root {
+  --lien: #D3AF75;
+  --background: #b9c1aa;
+  --titre: #A24929;
+  --texte: #25383E;
+  --blanc: #fefcf4;
+}
+
 .details-container {
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 2rem 7rem 0 7rem;
+}
+
+.image-section {
+  flex: 1;
+  img {
+    max-width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
   }
-  
-  .image-section {
-    flex: 1;
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
+}
+
+.info-section {
+  flex: 2;
+  h3 {
+    font-size: 2.5rem;
+    text-align: start;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    color: var(--titre); /* Couleur principale pour le titre */
   }
-  
-  .info-section {
-    flex: 2;
-    h1 {
-      font-size: 2.5rem;
-      color: #A24929; /* Couleur principale pour le titre */
-    }
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-      color: #25383E; /* Couleur pour les informations */
-    }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--texte); /* Couleur pour les informations */
   }
-  
+
+  .description {
+    padding-top: 1rem;
+  }
+}
+
+/* Pour isoler le bouton sous la section des informations */
+.bouton-container {
+  display: flex;
+  justify-content: flex-start;
+  margin : 0;
+  margin-bottom: 5rem;
+  padding: 0; /* Pour créer de l'espace au-dessus du bouton */
+}
+.bouton-container {
+  display: flex;
+  justify-content: center; /* Centre le bouton horizontalement */
+  padding-top: 1rem; /* Espace au-dessus du bouton */
+}
+
+button {
+  cursor: pointer;
+}

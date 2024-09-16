@@ -8,14 +8,14 @@
                     <h3>{{ animal.nom }}</h3>
                     <p><strong>Espèce:</strong> {{ animal.espece }}</p>
                     <p><strong>Race:</strong> {{ animal.race }}</p>
+                    <p><strong>Sexe :</strong> {{ animal.sexe}}</p>
                     <p><strong>Âge:</strong> {{ animal.age }} ans</p>
-                    <button><a [routerLink]="'/animaux/' + animal.id">Plus d'infos</a></button>
+                    <button><a [routerLink]="'/adoption/' + animal.id">Plus d'infos</a></button> <!-- route pour le détail de l'animal -->
                 </div>
             </div>
         }
       
     } @else {
-      <p>Aucun animal trouvé pour le moment.</p>
+      <p>Aucun animal ne vit dans notre refuge actuellement.</p>
     }
 </div>
-  

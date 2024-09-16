@@ -1,1 +1,18 @@
-<p>Les animaux adoptés</p>
+<div class="animaux-container">
+    @if (animaux.length > 0) {
+      @for (animal of animaux; track animal.id) {
+        <div class="animal-card">
+          <img [src]="animal.imageUrl" [alt]="animal.nom" />
+          <div class="animal-info">
+            <h3>{{ animal.nom }}</h3>
+            <p><strong>Espèce:</strong> {{ animal.espece }}</p>
+            <p><strong>Race:</strong> {{ animal.race }}</p>
+            <p><strong>Âge:</strong> {{ animal.age }} ans</p>
+          </div>
+        </div>
+      }
+    } @else {
+      <p>Aucun animal n'a trouvé de famille pour le moment.</p>
+    }
+</div>
+  

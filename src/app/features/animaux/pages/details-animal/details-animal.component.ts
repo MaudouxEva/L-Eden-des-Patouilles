@@ -9,20 +9,20 @@ import { AnimalService } from '../../services/animal.service';
   styleUrl: './details-animal.component.scss'
 })
 export class DetailsAnimalComponent {
-  animal!: Animal | undefined;  // Utilisation du point d'exclamation pour dire qu'il sera initialisé
+
+  animal!: Animal; 
 
   constructor(
     private readonly _animalService: AnimalService,
     private readonly _ar: ActivatedRoute
   ) {
+
     // Récupération de l'ID depuis les paramètres de la route
-    let id = +this._ar.snapshot.params['id'];
-    
-    
-    // Appel au service pour récupérer l'animal correspondant
+    let id = + this._ar.snapshot.params['id'];
+    // Appel au service pour récupérer l'animal de l'id
     this._animalService.findById(id).subscribe({
       next: (animal: Animal) => {
-        this.animal = animal;  // Assignation de l'animal retourné
+        this.animal = animal; 
       },
       error: (err) => {
         console.error('Erreur lors de la récupération de l\'animal', err);

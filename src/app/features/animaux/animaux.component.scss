@@ -10,8 +10,8 @@
 .banner {
     width: 100%;
     height: 11rem;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/assets/images/background-pattes.png');
-    background-size: 50%; /* Ajuste ici pour réduire la taille des pattes */
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('/assets/images/background-pattes.png');
+    background-size: 40%; /* Ajuste ici pour réduire la taille des pattes */
     background-repeat: repeat; /* Pour éviter de répéter l’image */
     background-position: center; /* Centrer l’image */
     padding: 20px;

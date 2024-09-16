@@ -16,10 +16,9 @@ export class ListeAnimauxComponent {
   }
 
   private loadAnimaux(): void {
-    this.animalService.findAll().subscribe((data: Animal[]) => {
+    this.animalService.findAvailable().subscribe((data: Animal[]) => {
       this.animaux = data;
     });
   }
-
 
 }
