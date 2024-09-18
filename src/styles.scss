@@ -102,6 +102,10 @@ button {
 .banner {
   width: 100%;
   height: 11rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
       rgba(255, 255, 255, 0.75),
       rgba(255, 255, 255, 0.75)
@@ -117,6 +121,11 @@ button {
   .banner-content {
     text-align: center;
     color: var(--texte); 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 
         p {
             font-family: "Quicksand", sans-serif;
@@ -127,7 +136,8 @@ button {
         h2 {
             letter-spacing: 0.1rem;
             color: var(--lien);
-            margin-bottom: 1rem;
+            margin: 0;
+            padding: 0;
         }
     }
 }
