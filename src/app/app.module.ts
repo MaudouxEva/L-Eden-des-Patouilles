@@ -12,6 +12,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactComponent } from './features/contact/pages/contact/contact.component';
 import { SharedModule } from './shared/shared.module';
 
+// Import FontAwesome module et les icônes que tu veux utiliser
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons'; // Import des icônes "solides"
+import { far } from '@fortawesome/free-regular-svg-icons'; // Import des icônes "regular"
+import { fab } from '@fortawesome/free-brands-svg-icons'; // Import des icônes "brands"
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +35,7 @@ import { SharedModule } from './shared/shared.module';
     FormsModule,
     ReactiveFormsModule,
     SharedModule,
+    FontAwesomeModule,
   ],
   exports: [
     FormsModule,
@@ -35,4 +44,11 @@ import { SharedModule } from './shared/shared.module';
   providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  constructor(library: FaIconLibrary) {
+    // Ajouter les icônes souhaitées dans la librairie
+    library.addIconPacks(fas, far, fab);
+  }
+
+}

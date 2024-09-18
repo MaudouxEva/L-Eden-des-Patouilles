@@ -12,4 +12,16 @@ section {
     span {
         color: #b9c1aa;
     }
+
+    div:last-of-type {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: .7rem;
+    }
+
+    fa-icon {
+        font-size: 19px;
+    }
 }
