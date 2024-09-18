@@ -10,6 +10,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { AboutComponent } from './features/about/pages/about/about.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactComponent } from './features/contact/pages/contact/contact.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ContactComponent } from './features/contact/pages/contact/contact.compo
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    SharedModule,
   ],
   exports: [
     FormsModule,

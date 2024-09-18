@@ -1,0 +1,14 @@
+:root {
+    --lien: #d3af75;
+    --background: #b9c1aa;
+    --titre: #a24929;
+    --texte: #25383e;
+    --blanc: #fefcf4;
+  }
+  
+.error {
+    color: var(--lien);
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
