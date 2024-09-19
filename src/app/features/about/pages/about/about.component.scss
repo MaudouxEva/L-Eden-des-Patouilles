@@ -1,1 +1,87 @@
 
+// Variables de couleurs pour créer une ambiance chaleureuse
+:root {
+    --lien: #d3af75;
+    --background: #b9c1aa;
+    --titre: #a24929;
+    --texte: #25383e;
+    --blanc: #fefcf4;
+
+ 
+  }
+
+  h2 {
+    font-size: 2.5em;
+    color: var(--background);
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: var(--texte);
+  }
+  
+  .about-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  // Section About
+  .about {
+    padding: 1.5rem;
+    background-color: var(--highlight-color);
+  
+    .about-content {
+        text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+ 
+
+  // Section Missions
+  .missions {
+    padding-bottom: 2rem;
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .mission-list {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      gap: 2rem;
+  
+      .mission {
+        width: 300px;
+        text-align: center;
+        margin: 0;
+  
+        h3 {
+          font-size: 1.8em;
+          color: var(--titre);
+          padding-bottom: 1rem;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+
+
+      }
+    }
+  }
+  
+  // Section Engagement
+  .engagement {
+    text-align: center;
+    padding: 1rem;
+  
+    .engagement-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  

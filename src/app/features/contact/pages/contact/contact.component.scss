@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: start;
   gap: 12rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 
   h3 {
     color: var(--titre);
@@ -78,10 +78,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    justify-content: flex-start;
     padding: 0;
     form {
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
       gap: 1rem;
       margin-top: 1rem;
 
@@ -90,8 +92,7 @@
         font-size: 1.125rem;
         padding: 1rem;
         width: 300px;
-        border: none;
-        border-bottom: 1px solid --texte;
+        border: .5px solid var(--background);
         color: var(--texte);
 
         &::placeholder {

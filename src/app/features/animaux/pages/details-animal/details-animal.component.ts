@@ -17,9 +17,10 @@ export class DetailsAnimalComponent {
     private readonly _ar: ActivatedRoute
   ) {
 
-    // Récupération de l'ID depuis les paramètres de la route
+    // Récup de l'ID depuis les paramètres de la route
     let id = + this._ar.snapshot.params['id'];
-    // Appel au service pour récupérer l'animal de l'id
+    // Appel a ma méthode pour récupérer l'animal de l'id
+    
     this._animalService.findById(id).subscribe({
       next: (animal: Animal) => {
         this.animal = animal; 

@@ -47,7 +47,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'; // Import des icônes 
 export class AppModule { 
 
   constructor(library: FaIconLibrary) {
-    // Ajouter les icônes souhaitées dans la librairie
+    // Ajouter les icônes souhaités dans la librairie
     library.addIconPacks(fas, far, fab);
   }
 
