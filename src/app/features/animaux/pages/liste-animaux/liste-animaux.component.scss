@@ -10,9 +10,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 3rem 6rem;
+    padding: 3rem 7rem;
 }
-  
+
   .animal-card {
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -25,35 +25,34 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  
+
     &:hover {
       transform: translateY(-5px);
     }
-  
+
     img {
       width: 100%;
-      height: 260px; /* Hauteur fixe pour toutes les images */
+      height: 260px;
       object-fit: cover; /* Garde le ratio en remplissant l'espace */
       border-radius: 8px;
       margin-bottom: 1rem;
     }
-  
+
     .animal-info {
       h3 {
-        margin: 1rem 0 1.5rem 0;
-        color: var(--lien); 
+        margin: .5rem 0;
+        color: var(--lien);
         font-weight: 500;
         letter-spacing: .05rem;;
       }
-  
+
       p {
         margin-bottom: 0.5rem;
-        color: #25383E; /* Bleu gris profond */
+        color: #25383E;
       }
 
       button {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
       }
     }
   }
-  

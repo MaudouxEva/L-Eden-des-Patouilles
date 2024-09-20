@@ -1,24 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Animal } from '../../models/animal';
-import { AnimalService } from '../../services/animal.service';
 
 @Component({
   selector: 'app-liste-animaux',
   templateUrl: './liste-animaux.component.html',
-  styleUrl: './liste-animaux.component.scss'
+  styleUrls: ['./liste-animaux.component.scss']
 })
-export class ListeAnimauxComponent {
+export class ListeAnimauxComponent implements OnInit {
 
   animaux: Animal[] = [];
 
-  constructor(private readonly animalService: AnimalService) {
-    this.loadAnimaux();
-  }
+  constructor(private readonly route: ActivatedRoute) {}
 
-  private loadAnimaux(): void {
-    this.animalService.findAvailable().subscribe((data: Animal[]) => {
-      this.animaux = data;
+  ngOnInit(): void {
+    // On récup les animaux préchargés par le resolver
+    this.route.data.subscribe(data => {
+      this.animaux = data['animaux'];
     });
   }
-
 }

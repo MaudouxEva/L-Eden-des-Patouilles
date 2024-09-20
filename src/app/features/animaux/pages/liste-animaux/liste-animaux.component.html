@@ -4,7 +4,7 @@
       <p>Rencontrez et adoptez un petit compagnon, et faites la différence aujourd'hui</p>
     </div>
 </section>
-  
+
 
 <section>
    <div class="animaux-container">
@@ -15,16 +15,16 @@
                 <img [src]="animal.imageUrl" [alt]="animal.nom" />
                 <div class="animal-info">
                     <h3>{{ animal.nom }}</h3>
-                    <p>Race : {{ animal.race }}</p>
+                    <p>{{ animal.race }}</p>
                     <p>{{ animal.sexe}}  de {{ animal.age }} ans</p>
                     <button><a [routerLink]="'/adoption/' + animal.id">Plus d'infos</a></button> <!-- route pour le détail de l'animal -->
                 </div>
             </div>
         }
-      
+
     } @else {
       <p>Aucun animal ne vit dans notre refuge actuellement.</p>
     }
-</div> 
+</div>
 </section>
 

@@ -7,7 +7,7 @@
         "race": "Berger Allemand",
         "sexe": "Femelle",
         "age": 4,
-        "description": "Scar est arrivée avec Scott au refuge car leur ancien propriétaire avait des problèmes de santé et ne pouvait plus s’en occuper. Simba est très anxieuse et protectrice. Elle a besoin d'une famille expérimentée avec la race, sans enfant ni chat. Très câline avec sa famille, elle adore l'eau. Elle est propre en maison et écoute bien. ",
+        "description": "Scar est une belle Berger Allemand avec un cœur immense. Elle est arrivée avec son compagnon Scott après que leur ancien propriétaire a dû renoncer à les garder en raison de problèmes de santé. Scar est protectrice, mais aussi très douce et affectueuse avec ceux qu'elle connaît. Elle a besoin d'un foyer qui comprend bien sa race, sans enfants ni chats. Si vous cherchez un chien loyal, qui adore l'eau et les câlins au coin du feu, Scar est la compagne idéale pour vous.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Scar.jpg"
@@ -19,7 +19,7 @@
         "race": "Labrador",
         "sexe": "Male",
         "age": 3,
-        "description": "Kenzo est arrivé au refuge à la suite du décès de son propriétaire. C’est un chien affectueux qui s’entend bien avec tout le monde, y compris les enfants et les autres chiens. Il adore les promenades et se comporte bien en laisse. Kenzo est castré.",
+        "description": "Kenzo est un Labrador affectueux au grand cœur, qui cherche une nouvelle famille depuis la perte de son maître. Il est sociable et adore passer du temps avec les enfants et les autres chiens. Toujours prêt pour une promenade en laisse ou une partie de jeu, Kenzo vous apportera de la joie et de l’amour au quotidien. C’est un vrai compagnon de vie, qui vous suivra partout avec bonheur et loyauté.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Kenzo.jpg"
@@ -31,7 +31,7 @@
         "race": "Golden Retriever",
         "sexe": "Male",
         "age": 5,
-        "description": "Rex a été abandonné par une famille qui ne pouvait plus s’occuper de lui. C’est un chien joueur et obéissant, mais il a besoin de beaucoup d’exercice. Il adore courir et nager. Rex est castré.",
+        "description": "Rex est un Golden Retriever plein de vie et d’énergie. Abandonné par sa famille qui ne pouvait plus s’occuper de lui, Rex a beaucoup d'amour à offrir. Il adore courir, jouer et nager. Si vous cherchez un compagnon pour des aventures en plein air, Rex est le chien parfait pour vous. Il est obéissant et à l’écoute, tout en restant joueur et curieux. Rex attend impatiemment une famille qui saura l'aimer autant qu'il le mérite.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Rex.jpg"
@@ -43,7 +43,7 @@
         "race": "Caniche",
         "sexe": "Femelle",
         "age": 6,
-        "description": "Bella a été abandonnée car son ancien propriétaire est parti à l’étranger. C’est une chienne très affectueuse qui adore être près de sa famille. Elle s’entend bien avec les enfants et les autres chiens, mais elle n’aime pas trop les chats. Bella est stérilisée.",
+        "description": "Bella est une petite chienne douce et affectueuse, qui rêve de trouver une famille aimante. Abandonnée par son propriétaire parti à l’étranger, elle recherche un foyer où elle pourra être entourée de tendresse. Bella s’entend bien avec les enfants et les autres chiens, mais préfère un environnement sans chats. Si vous cherchez une petite boule d'amour qui aime les câlins, Bella est la compagne idéale.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Bella.jpg"
@@ -55,7 +55,7 @@
         "race": "Husky",
         "sexe": "Male",
         "age": 4,
-        "description": "Scott est arrivé avec Simba car leur ancien propriétaire avait des problèmes de santé. Scott est très actif et a besoin d'une famille dynamique pour de longues promenades. Il adore courir et jouer dans la neige. Scott est castré.",
+        "description": "Scott est un Husky énergique et joyeux, arrivé au refuge avec Scar. Il a besoin de beaucoup d’exercice et rêve de longues promenades avec une famille dynamique qui partage son amour de l’aventure. Scott est également très joueur et adore la neige. Si vous êtes une famille active qui cherche un compagnon fidèle et plein de vie, Scott est fait pour vous.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Scott.jpg"
@@ -67,7 +67,7 @@
         "race": "Bulldog Français",
         "sexe": "Male",
         "age": 2,
-        "description": "Milo a été abandonné par sa famille car ils ne pouvaient plus s’occuper de lui. Il est très câlin et adore être près de sa famille. Milo s’entend bien avec les enfants mais pas avec les autres chiens. Il est propre en maison et est stérilisé.",
+        "description": "Milo est un petit Bulldog Français au cœur tendre, qui adore être entouré de sa famille. Abandonné par manque de temps, il cherche un foyer aimant où il pourra passer ses journées à recevoir et donner de l'amour. Milo adore les enfants, mais préfère être le seul chien de la maison. Il est propre, bien élevé et cherche un foyer qui saura l’aimer comme il le mérite.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Milo.jpg"
@@ -79,7 +79,7 @@
         "race": "Doberman",
         "sexe": "Male",
         "age": 3,
-        "description": "Bob est arrivé au refuge après que sa famille ne pouvait plus lui fournir suffisamment d’espace et de temps pour se dépenser. C’est un chien intelligent et énergique qui a besoin d’une famille active. Bob est castré.",
+        "description": "Bob est un Doberman intelligent et énergique, qui adore se dépenser. Abandonné faute de temps et d’espace, il a besoin d’une famille qui saura lui offrir une vie pleine d’activités et d’affection. Bob est loyal et protecteur, et attend de trouver un foyer où il pourra s’épanouir pleinement.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Bob.jpg"
@@ -91,7 +91,7 @@
         "race": "Shiba Inu",
         "sexe": "Male",
         "age": 2,
-        "description": "Lucky est un chien indépendant mais qui aime les moments câlins avec sa famille. Il est arrivé au refuge car sa famille n’avait plus assez de temps pour s’occuper de lui. Lucky est propre et calme en maison. Il est castré.",
+        "description": "Lucky est un Shiba Inu au tempérament indépendant, mais qui adore les moments de câlins. C’est un chien calme et propre, parfait pour une famille qui cherche un compagnon discret mais affectueux. Lucky a besoin d’une famille qui saura respecter son besoin de tranquillité, tout en lui offrant de l’amour.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Lucky.jpg"
@@ -103,7 +103,7 @@
         "race": "Lapin Nain",
         "sexe": "Male",
         "age": 1,
-        "description": "Flocon est arrivé au refuge après que sa famille n'avait plus assez de temps pour s'occuper de lui. C’est un petit lapin très actif qui aime beaucoup courir dans le jardin. Il est castré.",
+        "description": "Flocon est un petit lapin plein de vie, qui adore gambader dans le jardin. Abandonné par sa famille, il cherche un foyer chaleureux où il pourra être choyé. Si vous avez un coin de jardin et beaucoup d'amour à offrir, Flocon vous rendra au centuple toute l'affection que vous lui donnerez.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Flocon.jpg"
@@ -115,7 +115,7 @@
         "race": "Lapin Rex",
         "sexe": "Femelle",
         "age": 3,
-        "description": "Noisette a été trouvé dans un parc, abandonnée par ses anciens propriétaires. C’est une lapine douce et affectueuse qui aime les câlins. Elle est stérilisée.",
+        "description": "Noisette est une petite lapine douce et affectueuse, qui a été retrouvée seule dans un parc. Elle adore les câlins et cherche une famille qui saura lui offrir l'amour et la tranquillité qu'elle mérite. Noisette est idéale pour une famille qui cherche un animal calme et aimant.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Noisette.jpg"
@@ -127,7 +127,7 @@
         "race": "Lapin Bélier",
         "sexe": "Male",
         "age": 2,
-        "description": "Coton a été abandonné par une famille qui ne pouvait plus s’occuper de lui. Il adore se cacher dans les coins de la maison et est propre. Coton est castré.",
+        "description": "Coton est un petit lapin curieux qui adore se faufiler dans les coins pour se reposer. Propre et discret, il est parfait pour une famille qui souhaite un compagnon paisible. Coton attend de trouver un foyer où il pourra se détendre et explorer à son rythme.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Coton.jpg"
@@ -139,7 +139,7 @@
         "race": "Lapin Nain",
         "sexe": "Male",
         "age": 1,
-        "description": "Pistache a été trouvé errant dans un jardin. Il est très curieux et adore explorer son environnement. Pistache est castré.",
+        "description": "Pistache est un petit aventurier ! Ce lapin curieux adore explorer son environnement et jouer. Trouvé errant dans un jardin, il cherche maintenant une famille qui pourra lui offrir un espace sécurisé et plein de tendresse.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Pistache.jpg"
@@ -151,7 +151,7 @@
         "race": "Lapin Angora",
         "sexe": "Male",
         "age": 4,
-        "description": "Carotte a été abandonné au refuge à cause d'une allergie dans sa famille. Il a besoin de soins réguliers à cause de son pelage. Carotte est castré.",
+        "description": "Carotte est un magnifique Lapin Angora avec un pelage nécessitant des soins réguliers. Abandonné à cause d'une allergie, il attend un foyer où il pourra être chouchouté. Carotte est affectueux et aime se prélasser dans les bras de sa famille.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Carotte.jpg"
@@ -163,7 +163,7 @@
         "race": "Lapin Bélier",
         "sexe": "Male",
         "age": 3,
-        "description": "Bunny est arrivé au refuge car son ancienne famille n'avait plus assez de temps pour s'occuper de lui. Il est calme et adore les câlins. Bunny est castré.",
+        "description": "Bunny est un lapin calme et affectueux, qui adore les câlins et les moments de tendresse. Abandonné faute de temps, il cherche une nouvelle famille où il pourra passer ses journées à se détendre et recevoir beaucoup d’amour.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Bunny.jpg"
@@ -175,7 +175,7 @@
         "race": "Siamois",
         "sexe": "Femelle",
         "age": 2,
-        "description": "Mimi est arrivée au refuge car elle n'aimait pas vivre avec d'autres animaux. Elle est très affectueuse avec les humains mais préfère être le seul animal du foyer. Mimi est stérilisée.",
+        "description": "Mimi est une belle Siamois au caractère bien trempé. Elle préfère être le seul animal du foyer, mais elle est extrêmement affectueuse avec les humains. Si vous cherchez un chat câlin et exclusif, Mimi est celle qu’il vous faut. Elle vous couvrira d’amour si vous êtes prêts à être son unique attention.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Mimi.jpg"
@@ -187,7 +187,7 @@
         "race": "Persan",
         "sexe": "Femelle",
         "age": 5,
-        "description": "Lily est arrivée au refuge après le déménagement de sa famille qui ne pouvait plus la garder. Elle est calme, câline, et adore dormir au soleil. Lily est stérilisée.",
+        "description": "Lily est une Persane douce et calme, qui adore les longues siestes au soleil. Elle est très affectueuse et cherche une famille qui saura lui offrir le calme et la sérénité dont elle a besoin. Si vous avez un petit coin tranquille où Lily pourra se prélasser, elle sera ravie de vous rejoindre.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Lily.jpg"
@@ -199,7 +199,7 @@
         "race": "Maine Coon",
         "sexe": "Male",
         "age": 6,
-        "description": "Tom est arrivé au refuge à cause d'une allergie dans sa famille. C'est un chat calme qui adore les caresses. Tom est castré.",
+        "description": "Tom est un magnifique Maine Coon, calme et affectueux. Il adore se blottir contre vous et recevoir des caresses. Tom a été abandonné en raison d’une allergie dans sa famille, et il attend maintenant une nouvelle chance de trouver un foyer aimant.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Tom.jpg"
@@ -211,7 +211,7 @@
         "race": "Chat Européen",
         "sexe": "Femelle",
         "age": 4,
-        "description": "Nina est arrivée au refuge car sa famille ne pouvait plus s'en occuper. C’est une chatte très affectueuse qui adore les câlins. Elle est propre en maison. Nina est stérilisée.",
+        "description": "Nina est une petite chatte adorable, toujours prête à vous offrir des câlins. Propre et calme, elle est idéale pour une famille qui cherche une compagne douce et affectueuse. Nina attend impatiemment de trouver une famille qui l’aimera pour toujours.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Nina.jpg"
@@ -223,7 +223,7 @@
         "race": "British Shorthair",
         "sexe": "Male",
         "age": 3,
-        "description": "Charly est arrivé au refuge après un déménagement. Il est joueur et affectueux, et adore grimper partout. Charly est castré.",
+        "description": "Charly est un British Shorthair joueur et espiègle. Il adore grimper partout et découvrir de nouveaux recoins. Si vous cherchez un chat actif et affectueux, Charly est le compagnon parfait pour vous. Il attend impatiemment une famille avec qui partager ses jeux et ses moments câlins.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Charly.jpg"
@@ -235,7 +235,7 @@
         "race": "Hamster Doré",
         "sexe": "Femelle",
         "age": 1,
-        "description": "Fifi est arrivée au refuge car ses anciens propriétaires déménageaient à l'étranger. Elle est curieuse et très active.",
+        "description": "Fifi est une petite curieuse toujours en mouvement ! Abandonnée à cause d'un déménagement, elle cherche maintenant une nouvelle famille où elle pourra explorer et jouer. Si vous aimez les petits rongeurs actifs, Fifi saura vous faire craquer.",
         "adopte": false,
         "castre": false,
         "imageUrl": "assets/images/Fifi.jpg"
@@ -247,7 +247,7 @@
         "race": "Souris",
         "sexe": "Femelle",
         "age": 2,
-        "description": "Tic est arrivée avec sa soeur Tac au refuge car la famille ne pouvait plus s'en occuper. C'est une petite souris très active et sociale.",
+        "description": "Tic est une petite souris pleine de vie, toujours prête à explorer. Arrivée avec sa sœur Tac, elle adore jouer et découvrir son environnement. Si vous cherchez un petit compagnon actif et curieux, Tic est parfaite pour vous.",
         "adopte": false,
         "castre": false,
         "imageUrl": "assets/images/Tic.jpg"
@@ -259,7 +259,7 @@
         "race": "Souris",
         "sexe": "Male",
         "age": 2,
-        "description": "Tac est arrivée avec sa soeur Tic. Elles adorent jouer ensemble et explorer leur environnement. Tac est très curieuse.",
+        "description": "Tac est une petite souris curieuse et joueuse, arrivée avec sa sœur Tic. Elles forment un duo inséparable et adorent explorer ensemble. Tac est prête à rejoindre une nouvelle famille où elle pourra continuer ses aventures.",
         "adopte": false,
         "castre": false,
         "imageUrl": "assets/images/Tac.jpg"
@@ -271,7 +271,7 @@
         "race": "Cochon d'Inde",
         "sexe": "Male",
         "age": 1,
-        "description": "Nugget a été abandonné au refuge à cause d'une allergie dans sa famille. Il est sociable et adore les câlins.",
+        "description": "Nugget est un cochon d’Inde doux et affectueux, qui adore les câlins. Sociable et gentil, il est parfait pour une famille qui cherche un compagnon à poils doux à chouchouter. Nugget attend avec impatience de rencontrer sa nouvelle famille.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Nugget.jpg"
@@ -283,7 +283,7 @@
         "race": "Rat Domestique",
         "sexe": "Male",
         "age": 3,
-        "description": "Grisou a été trouvé errant dans un jardin public. C'est un rat très intelligent et sociable.",
+        "description": "Grisou est un rat domestique extrêmement intelligent et sociable. Trouvé errant, il cherche maintenant un foyer aimant où il pourra s'épanouir. Grisou est parfait pour les amateurs de rongeurs intelligents et affectueux.",
         "adopte": false,
         "castre": true,
         "imageUrl": "assets/images/Grisou.jpg"
@@ -295,11 +295,12 @@
         "race": "Gerbille",
         "sexe": "Femelle",
         "age": 2,
-        "description": "Choupi est arrivée au refuge car sa famille ne pouvait plus s'en occuper. Elle est curieuse et très joueuse.",
+        "description": "Choupi est une petite gerbille curieuse et joueuse. Elle adore explorer et se faufiler dans tous les recoins. Abandonnée au refuge, elle cherche une famille où elle pourra continuer ses petites aventures.",
         "adopte": false,
         "castre": false,
         "imageUrl": "assets/images/Choupi.jpg"
       },
+
       {
         "id": 26,
         "nom": "Gaston",
@@ -383,7 +384,7 @@
         "adopte": true,
         "castre": true,
         "imageUrl": "assets/images/Simba.jpeg"
-      }, 
+      },
       {
         "id": 35,
         "nom": "Manatee",

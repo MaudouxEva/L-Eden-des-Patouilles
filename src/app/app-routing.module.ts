@@ -13,7 +13,7 @@ const routes: Routes = [
   { path : 'adoption', component: AnimauxComponent,
       loadChildren : () => import('./features/animaux/animaux.module').then(m => m.AnimauxModule)
   }
- 
+
 ];
 
 @NgModule({

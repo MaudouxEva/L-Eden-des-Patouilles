@@ -6,8 +6,6 @@
     --titre: #a24929;
     --texte: #25383e;
     --blanc: #fefcf4;
-
- 
   }
 
   h2 {
@@ -21,31 +19,31 @@
     font-size: 1.2em;
     color: var(--texte);
   }
-  
+
   .about-container {
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
   }
   // Section About
   .about {
     padding: 1.5rem;
+    padding-bottom: 2rem;
     background-color: var(--highlight-color);
-  
+
     .about-content {
         text-align: center;
       max-width: 1200px;
       margin: 0 auto;
     }
   }
- 
+
 
   // Section Missions
   .missions {
     padding-bottom: 2rem;
     h2 {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .mission-list {
       max-width: 900px;
@@ -54,34 +52,39 @@
       align-items: flex-start;
       justify-content: space-around;
       gap: 2rem;
-  
+
       .mission {
-        width: 300px;
+        width: 320px;
+        height: 260px;
         text-align: center;
         margin: 0;
-  
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background);
+        border-radius: 8px;
         h3 {
           font-size: 1.8em;
-          color: var(--titre);
-          padding-bottom: 1rem;
+          color: var(--blanc);
+          padding: 1rem .8rem;
         }
         p{
-            font-size: 1.1rem;
+          font-size: 1.1rem;
+          color: var(--texte);
+          padding: 0 .8rem;
         }
 
 
       }
     }
   }
-  
+
   // Section Engagement
   .engagement {
     text-align: center;
     padding: 1rem;
-  
+
     .engagement-content {
       max-width: 1200px;
       margin: 0 auto;
     }
   }
-  

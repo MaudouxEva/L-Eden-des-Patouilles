@@ -14,22 +14,17 @@ export class AnimalService {
     private readonly _http: HttpClient,
   ) { }
 
-  // Méthode pour récupérer tous les animaux
-  findAll(): Observable<Animal[]> {
-    return this._http.get<Animal[]>(this.apiUrl);
-  }
-
-  // Méthode pour récupérer un animal par ID
+ // Récupérer un animal par son id
   findById(id: number): Observable<Animal> {
     return this._http.get<Animal>(this.apiUrl + '/' + id);
   }
 
-     // Méthode pour récupérer uniquement les animaux disponibles (adopte: false)
+     // Récupérer uniquement les animaux disponibles (adopte: false)
      findAvailable(): Observable<Animal[]> {
       return this._http.get<Animal[]>(`${this.apiUrl}?adopte=false`);
     }
-  
-    // Méthode pour récupérer uniquement les animaux adoptés (adopte: true)
+
+    // Rrécupérer uniquement les animaux adoptés (adopte: true)
     findAdopted(): Observable<Animal[]> {
       return this._http.get<Animal[]>(`${this.apiUrl}?adopte=true`);
     }
