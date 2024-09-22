@@ -11,11 +11,18 @@
   background-color: #f9f9f9;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content : center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
 .presentation {
   max-width: 80%;
   text-align: center;
   padding-bottom: 1.5rem;
-  padding-top: 1rem;
   p {
     padding-bottom: .7rem;
   }
@@ -25,17 +32,17 @@
 }
 // Section Hero
 .hero {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   p {
     color: var(--texte);
   }
 
   .hero-content {
     text-align: center;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
 
     h1 {
       padding-bottom: 0;

@@ -408,6 +408,91 @@
         "adopte": true,
         "castre": true,
         "imageUrl": "assets/images/Pompon.jpg"
+      },
+      {
+        "id": 37,
+        "nom": "Akhenatonne",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Femelle",
+        "age": 5,
+        "description": "Akhenatonne est une petite chatte sauvageonne qui a été recueillie par sa famille. Elle ne rentre chez eux que pour manger (petite ingrate (comme son maitre)), puis repart vivre sa vie d'exploratrice indépendante.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Akhenatonne.jpg"
+      },
+      {
+        "id": 38,
+        "nom": "Sora",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Male",
+        "age": 4,
+        "description": "Sora est le king de la maison, mais il n'aime pas trop la compagnie des autres chats. Indépendant et mystérieux, il préfère les moments de calme et de solitude, mais sait aussi se faire câliner lorsqu'il en a envie.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Sora.jpg"
+      },
+      {
+        "id": 39,
+        "nom": "René-Miaouss-Tarzan",
+        "espece": "Chat",
+        "race": "Siamois",
+        "sexe": "Male",
+        "age": 3,
+        "description": "René-Miaouss-Tarzan, champion de saut dans sa catégorie, ",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Rene-Miaouss-Tarzan.jpg"
+      },
+      {
+        "id": 40,
+        "nom": "Joséphine",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Femelle",
+        "age": 2,
+        "description": "Joséphine est une vraie petite fofolle, toujours en mouvement ! Elle adore explorer tous les recoins de la maison et joue avec tout ce qui lui passe sous la patte. Cette boule d'énergie apporte beaucoup de joie à sa famille.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Josephine.jpg"
+      },
+      {
+        "id": 41,
+        "nom": "Tora",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Femelle",
+        "age": 6,
+        "description": "Tora est une grande exploratrice qui adore passer ses journées à l'extérieur. Dès qu'elle rentre de ses aventures, elle appelle ses maîtres avec un petit 'Miaaaouuuu !'. Très affectueuse, elle aime les papouilles et ne manque jamais de venir dire bonjour avant de s'endormir en boule.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Tora.jpg"
+      },
+      {
+        "id": 42,
+        "nom": "Noirau",
+        "espece": "Chat",
+        "race": "Chat Européen",
+        "sexe": "Male",
+        "age": 4,
+        "description": "Noirau est un petit chat sauvé de la rue. Aujourd'hui, c'est un adorable casse-bonbon qui adore réclamer son bol de lait ou un bonbon à son papa. Son nom vient des Noiraudes, les petites boules de suie de l'univers Ghibli.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Noirau.jpg"
+      },
+      {
+        "id": 43,
+        "nom": "Inox",
+        "espece": "Chien",
+        "race": "Border Collie",
+        "sexe": "Femelle",
+        "age": 5,
+        "description": "Inox est une chienne très joueuse et sage comme une image. Ancienne championne de Belgique en agility, elle a pu trouvé une belle vie de famille où elle peut montrer toute son affection et sa douceur au quotidien.",
+        "adopte": true,
+        "castre": true,
+        "imageUrl": "assets/images/Inox.png"
       }
+      
     ]
   }

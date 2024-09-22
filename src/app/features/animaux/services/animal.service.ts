@@ -19,12 +19,15 @@ export class AnimalService {
     return this._http.get<Animal>(this.apiUrl + '/' + id);
   }
 
-     // Récupérer uniquement les animaux disponibles (adopte: false)
+     // Récupère uniquement les animaux disponibles à l'adoption (adopte: false)
+     //  retourne un Observable qui émettra tableau d'animaux. 
+     // Observale = flux de données que l'on peut suivre pour recevoir les informations asynchrones
      findAvailable(): Observable<Animal[]> {
+      // requête HTTP de type GET
       return this._http.get<Animal[]>(`${this.apiUrl}?adopte=false`);
     }
 
-    // Rrécupérer uniquement les animaux adoptés (adopte: true)
+    // Récupère uniquement les animaux adoptés (adopte: true)
     findAdopted(): Observable<Animal[]> {
       return this._http.get<Animal[]>(`${this.apiUrl}?adopte=true`);
     }
