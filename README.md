@@ -1,4 +1,4 @@
-# Le paradis des Pattouilles 🐾
+# L'Eden des Pattouilles 🐾
 
 ## Description du projet
 
