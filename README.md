@@ -1,27 +1,77 @@
-# RefugeAnimaux
+# Le paradis des Pattouilles 🐾
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+## Description du projet
 
-## Development server
+**Le paradis des Pattouilles** est un site web développé en local avec Angular, conçu pour un refuge animal fictif. Ce projet met en œuvre plusieurs concepts essentiels du développement web, notamment :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Formulaires réactifs (ReactiveForms)** pour la prise de rendez-vous et l'enregistrement des visiteurs.
+- **Services Angular** pour la gestion centralisée des données des animaux.
+- **Communication avec une API simulée** à l'aide d'un fichier JSON pour récupérer les informations des animaux.
+- **Routing Angular** pour naviguer entre les différentes pages (accueil, détails des animaux, formulaire de contact, etc.).
+- **Consommation d'observables** pour afficher dynamiquement les informations.
 
-## Code scaffolding
+Ce projet a été réalisé dans le cadre d'une formation en développement web, et est conçu pour mettre en pratique des concepts clés du framework Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Fonctionnalités
 
-## Build
+- **Accueil** : Liste des animaux du refuge sous forme de cartes.
+- **Page de détails** : Informations détaillées sur chaque animal, avec photo, âge, race, etc.
+- **Formulaire de prise de rendez-vous** : Permet aux utilisateurs de planifier une visite pour rencontrer un animal.
+- **Page des animaux adoptés** : Présente les animaux qui ont trouvé une nouvelle famille.
+- **Filtrage dynamique** : Sépare les animaux disponibles à l’adoption de ceux qui sont déjà adoptés.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies utilisées
 
-## Running unit tests
+- **Angular 18+**
+- **HTML5 / SCSS**
+- **JSON-server** pour simuler une API
+- **TypeScript**
+- **RxJS** pour la gestion des observables
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation et utilisation
 
-## Running end-to-end tests
+1. **Cloner le dépôt** :
+   ``
+   git clone https://github.com/MaudouxEva/shelter.git
+   ``
+2. **Installer les dépendances** :
+   ``
+   npm install
+   ``
+3. **Lancer l'application Angular** :
+   ``
+   ng serve 
+   ``
+4. **Lancer le serveur JSON** :
+   ``
+   npm run fakeApi
+   ``
+5. **Accéder à l'application** :
+   - Ouvrez votre navigateur à l'adresse http://localhost:4200 pour l'application Angular.
+   - Le serveur JSON sera accessible à l'adresse http://localhost:3000.
+  
+## Structure du projet
+``
+src/
+├── app/
+│   ├── animaux/
+│   │   ├── animaux-routing.module.ts
+│   │   ├── animaux.module.ts
+│   │   ├── pages/
+│   │   │   ├── liste-animaux/
+│   │   │   ├── details-animal/
+│   ├── services/
+│   ├── models/
+├── assets/
+│   ├── images/  # Contient les photos des animaux
+├── environments/
+``
+## Prochaines étapes
+- Mise en place d'un CRUD pour les animaux.
+- Création d'une interface admin.
+- Connexion à une véritable API REST pour gérer les données des animaux.
+- Ajout d'un système de gestion des utilisateurs pour les adoptions.
+- Amélioration du design.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Auteur
+Projet réalisé par Eva Maudoux dans le cadre de la formation en développement web.
