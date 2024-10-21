@@ -32,7 +32,7 @@ Ce projet a été réalisé dans le cadre d'une formation en développement, et 
 
 1. **Cloner le dépôt** :
    ``
-   git clone https://github.com/MaudouxEva/shelter.git
+   git clone https://github.com/MaudouxEva/L-Eden-des-Patouilles.git
    ``
 2. **Installer les dépendances** :
    ``
