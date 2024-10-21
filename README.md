@@ -50,23 +50,6 @@ Ce projet a été réalisé dans le cadre d'une formation en développement web,
    - Ouvrez votre navigateur à l'adresse http://localhost:4200 pour l'application Angular.
    - Le serveur JSON sera accessible à l'adresse http://localhost:3000.
   
-## Structure du projet
-
-src/
-├── app/
-│   ├── animaux/
-│   │   ├── animaux-routing.module.ts
-│   │   ├── animaux.module.ts
-│   │   ├── pages/
-│   │   │   ├── liste-animaux/
-│   │   │   ├── details-animal/
-│   ├── services/
-│   ├── models/
-├── assets/
-│   ├── images/  # Contient les photos des animaux
-├── environments/
-
-
 ## Prochaines étapes
 - Mise en place d'un CRUD pour les animaux.
 - Création d'une interface admin.
