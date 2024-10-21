@@ -10,7 +10,7 @@
 - **Routing Angular** pour naviguer entre les différentes pages (accueil, détails des animaux, formulaire de contact, etc.).
 - **Consommation d'observables** pour afficher dynamiquement les informations.
 
-Ce projet a été réalisé dans le cadre d'une formation en développement web, et est conçu pour mettre en pratique des concepts clés du framework Angular.
+Ce projet a été réalisé dans le cadre d'une formation en développement, et est conçu pour mettre en pratique des concepts clés du framework Angular.
 
 ## Fonctionnalités
 
