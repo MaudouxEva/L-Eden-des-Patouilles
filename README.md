@@ -51,7 +51,7 @@ Ce projet a été réalisé dans le cadre d'une formation en développement web,
    - Le serveur JSON sera accessible à l'adresse http://localhost:3000.
   
 ## Structure du projet
-``
+
 src/
 ├── app/
 │   ├── animaux/
@@ -65,7 +65,8 @@ src/
 ├── assets/
 │   ├── images/  # Contient les photos des animaux
 ├── environments/
-``
+
+
 ## Prochaines étapes
 - Mise en place d'un CRUD pour les animaux.
 - Création d'une interface admin.
